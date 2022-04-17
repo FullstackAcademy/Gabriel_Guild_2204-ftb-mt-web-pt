@@ -1,0 +1,63 @@
+a:hover{
+    color: black;
+    font-weight: bold;
+}
+a{
+    color: rgb(52, 51, 51);
+    text-decoration: none;
+}
+.title-order{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px, 30px, 30px, 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.left-side{
+    display:flex
+}
+.title-order > .left-side > div{
+    font-size: 0.9em;
+    margin-right: 20px;
+    display: flex;
+}
+head
+{
+    background-color: rgb(148, 93, 21);
+    width: 500px;
+    height: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large ;
+}
+body
+{
+    background-color: rgb(255, 244, 229);
+}
+footer
+{
+    
+    text-align: center;
+    font-size: larger;
+    padding-top: 700px;
+}
+footer img
+{
+    
+    margin: .4em;
+    border-radius: 20%;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+
+}
+.title{
+    border: solid;
+    border-color: black;
+    padding: 10px;
+    background-color: rgb(142, 148, 148);
+    top:0;
+    right: 0;
+    left: 0;
+    position: fixed;
+}
